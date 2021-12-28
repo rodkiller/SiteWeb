@@ -491,7 +491,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 0;
   width: auto;
   height: auto;
-  background: rgba(67, 192, 63, 0.8);
+  background: #3fbcc0e1;
   border-radius: 50px;
   transition: 0.3s;
   color: rgba(255, 255, 255, 0.5);
@@ -662,7 +662,7 @@ section {
   padding-top: 30px;
   position: relative;
   overflow: hidden;
-  background: rgba(96, 245, 104, 0.596);
+  background: #3fbcc088;
   box-shadow: 0 0 29px 0 rgba(68, 144, 87, 0.12);
   transition: all 0.3s ease-in-out;
   border-radius: 10px 0 10px 10px;
@@ -684,7 +684,7 @@ section {
   z-index: -1;
 }
 .featured-services .icon-box:hover::before {
-  background: rgba(96, 245, 104, 0.596);
+  background: #3fbbc0;
   top: 0;
   border-radius: 0px;
 }
@@ -824,13 +824,15 @@ section {
 }
 .features .icon-box i {
   font-size: 48px;
-  float: left;
+  float: right;
   color: #3fbbc0;
+  margin-left: 20px;
 }
 .features .icon-box p {
-  font-size: 15px;
+  font-size: 30px;
   color: #848484;
   margin-left: 60px;
+  margin-right: 64px;
 }
 .features .image {
   background-position: center center;

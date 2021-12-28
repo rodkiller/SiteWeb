@@ -1,0 +1,123 @@
+
+
+.vertical-center {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+body {
+    background: Grey;
+}
+
+.row {
+    display: flex;
+    width: 100%;
+}
+
+.calendar {
+    display: block;
+    background:white;
+    width: 330px;
+    border: solid 1px green;
+    margin: 10px auto;
+    box-shadow: 0 0 15px 0 Grey;
+    font-size: 1.3rem;
+    text-align: center;
+    border-radius: 8px;
+    padding: 38px; 
+  font-size: 16px;
+
+    header {
+        .vertical-center;
+        cursor: default;
+        font-size:1.4rem;
+        display: block;
+        font-weight: bold;
+        user-select: none;
+        color: red;
+        
+        .month-display {
+            align-items: center;
+            height: 40px;
+        }
+
+        .month-label { 
+           flex: 1;
+            text-align: left;
+    padding-left: 10px;
+          font-size: 16px;
+        }
+      
+        .arrow {
+            flex-basis: 6%;
+            font-weight: bold;
+            cursor: pointer;
+            transition: white .2s;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+  
+    .week {
+        &:first-child {
+            border-top: none;
+        }
+    }
+  
+    .day-names {
+        color: @secondary;
+        font-weight: bold;
+        cursor: default;
+        font-size: 16px;
+        
+        .day {
+            cursor: default;
+         
+            &:hover {
+                background: inherit;
+
+            }
+        }
+    }
+  
+    .day {
+        .vertical-center;
+        flex: 1;
+        height: 35px;
+        cursor: pointer;
+        transition: all .2s;
+        padding: 6px;
+
+        &:hover {
+            background: grey;
+        }
+
+        &:first-child {
+            border-left:none;
+        }
+
+        &.today {
+            background: wheat;
+            border-radius:50%;
+            width:35px;
+            max-width:35px;
+            height:35px;
+        }
+
+        &.different-month {
+            color: gray;
+        }
+
+        &.selected {
+            background: red;
+            color: white;
+          border-radius:50%;
+            width:35px;
+            max-width:35px;
+            height:35px;
+        }
+    }
+}
