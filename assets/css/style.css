@@ -119,8 +119,8 @@ h1, h2, h3, h4, h5, h6 {
   position: absolute;
   right: 45%;
   top: 5%;
-  min-height:120px;
-  min-width: 120px;
+  min-height:140px;
+  min-width: 140px;
   background-image: url("../img/logor.png");
   
 }
