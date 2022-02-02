@@ -139,6 +139,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 8%;
   font-size: 40px;
   color: white;
+  text-shadow: 0 0 5px black;
   
 }
 
@@ -149,6 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   left: 2%;
   font-size: 40px;
   color: white;
+  text-shadow: 0 0 5px black;
   
 }
 
@@ -831,9 +833,10 @@ section {
 }
 .features .icon-box p {
   font-size: 30px;
-  color: #848484;
   margin-left: 60px;
   margin-right: 64px;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
 }
 .features .image {
   background-position: center center;
@@ -1035,7 +1038,9 @@ section {
   color: #3fbbc0;
 }
 .departments .tab-pane p {
-  color: #777777;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  font-size: 20px;
 }
 .departments .tab-pane p:last-child {
   margin-bottom: 0;
